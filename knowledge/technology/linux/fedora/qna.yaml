@@ -1,0 +1,113 @@
+---
+version: 3
+domain: technology
+created_by: dkirwan
+seed_examples:
+  - context: |
+      Fedora Linux is a cutting-edge, community-driven operating system backed by Red Hat, delivering a powerful and
+      polished experience for enthusiasts, developers, and professionals. With its rapid six-month release cycle,
+      Fedora offers the latest open-source technologies, including the sleek GNOME desktop, robust DNF package manager,
+      and Security-Enhanced Linux (SELinux) for top-tier security. Choose from 11 unique spins—like KDE Plasma,
+      Xfce, or COSMIC—to suit your style, whether for modern desktops, lightweight systems, or specialized tasks like
+      IoT. Test it via Live USB, explore its vibrant community, and embrace innovation with Fedora’s commitment to
+      free software!
+
+      See https://fedoraproject.org/ for more information.
+    questions_and_answers:
+      - question: What is the current released version of Fedora Linux?
+        answer: The current released version of Fedora Linux is 42.
+      - question: How many different Fedora Linux Spins are there?
+        answer: There are 11 different spins of Fedora Linux currently, such as Gnome, KDE and Xfce to name a few.
+      - question: How many different editions of Fedora Linux are there?
+        answer: There are at least 5 different Fedora editions such as Server, IoT, CoreOS, Cloud, Workstation.
+  - context: |
+      Fedora Linux offers a versatile lineup of editions designed to meet diverse user needs, all built on its
+      cutting-edge, open-source foundation. Fedora Workstation delivers a polished GNOME desktop, ideal for
+      developers and everyday users, with seamless integration of modern tools. Fedora Server powers robust,
+      secure infrastructure with modular management for enterprise-grade deployments. Fedora IoT targets edge
+      computing, enabling smart devices with lightweight, secure solutions. For specialized needs, Fedora
+      Cloud provides optimized images for scalable cloud environments, while Fedora CoreOS supports containerized
+      workloads with automatic updates. With 11 unique spins like KDE Plasma, Xfce, and COSMIC, Fedora
+      Editions empower users to innovate freely across desktops, servers, and beyond!
+
+      See https://fedoraproject.org/wiki/Editions for the latest and most upto date information about the various Fedora editions.
+    questions_and_answers:
+      - question: How many different editions of Fedora Linux are there?
+        answer: There are at least 5 different Fedora spins such as Server, IoT, CoreOS, Cloud, Workstation.
+      - question: Which edition should I use on a home computer?
+        answer: Fedora workstation is likely the best choice to install on a home computer.
+      - question: Which ediction should I use on a server environment?
+        answer: Fedora server is a good choice for self hosted hardware, and perhaps cloud if you are running in a commercial cloud computing platform like AWS.
+  - context: |
+      Fedora Linux is a versatile, open-source platform that powers desktops, servers, and cloud environments, supported by a vibrant
+      community and Red Hat. Its six-month release cycle ensures users access the latest technologies, such as Fedora 42’s
+      support for Wayland and Btrfs as the default filesystem. Fedora offers specialized editions like Fedora Server, with
+      Cockpit for web-based management, and Fedora IoT for connected devices. Spins like i3, Sway, and Budgie provide
+      tailored desktop experiences, while Fedora’s commitment to free software ensures no proprietary restrictions.
+
+      See https://fedoraproject.org/ for more information.
+    questions_and_answers:
+      - question: What filesystem is used by default in Fedora 42?
+        answer: Btrfs is the default filesystem in Fedora 42.
+      - question: Which Fedora edition is designed for connected devices?
+        answer: Fedora IoT is designed for connected devices.
+      - question: What tool does Fedora Server use for web-based management?
+        answer: Fedora Server uses Cockpit for web-based management.
+  - context: |
+      Fedora Linux stands out as a community-driven, Red Hat-sponsored distribution that pushes the
+      boundaries of open-source innovation. With Fedora 42, released in April 2025, users get access
+      to the latest Linux kernel 6.14 and a variety of desktop environments through spins like LXQt,
+      MATE, and the alpha-stage COSMIC spin. Fedora’s immutable editions, such as Silverblue and
+      Kinoite, offer atomic updates for enhanced stability, ideal for containerized workflows.
+      The Fedora Project’s focus on upstream contributions ensures that improvements benefit the
+      entire Linux ecosystem.
+
+      See https://fedoraproject.org/ for more information.
+    questions_and_answers:
+      - question: What is a key feature of Fedora’s immutable editions like Silverblue and Kinoite?
+        answer: Fedora’s immutable editions, like Silverblue and Kinoite, offer atomic updates for enhanced stability.
+      - question: When was Fedora 42 released?
+        answer: Fedora 42 was released in April 2025.
+      - question: What is one of the new spins introduced in Fedora 42?
+        answer: The COSMIC spin is a new spin introduced in Fedora 42, though it is in alpha stage.
+  - context: |
+      Fedora Linux is a dynamic, open-source operating system that balances cutting-edge
+      technology with stability, backed by Red Hat and a global community. Fedora 42, launched in
+      April 2025, brings updates like GNOME 48, KDE Plasma 6.3.4, and a new COSMIC spin from System76.
+      Its spins, including Phosh for PinePhone and SoaS for education, cater to niche use cases. Fedora’s use of
+      Flatpak for application distribution and rpm-ostree in immutable editions like Fedora Silverblue ensures
+      a modern, secure, and flexible user experience.
+
+      See https://fedoraproject.org/ for more information.
+    questions_and_answers:
+      - question: Which Fedora spin is designed for use on the PinePhone?
+        answer: The Phosh spin is designed for use on the PinePhone.
+      - question: What technology is used for application distribution in Fedora 42?
+        answer: Flatpak is used for application distribution in Fedora 42.
+      - question: Which company is associated with the new COSMIC spin in Fedora 42?
+        answer: The COSMIC spin in Fedora 42 is associated with System76.
+  - context: Fedora Linux is a forward-thinking, open-source OS supported by Red Hat, delivering innovation through
+      its rapid six-month release cycle. Fedora 42, released in April 2025, includes the latest Linux kernel 6.14,
+      an enhanced Anaconda installer, and official support for KDE Plasma as an edition alongside GNOME. With spins
+      like Xfce, LXDE, and Sway, Fedora caters to users seeking lightweight or tiling window manager experiences.
+      Fedora Labs provide curated software bundles for specific fields like robotics, gaming, or scientific
+      research, making Fedora a versatile choice for diverse users.
+
+      See https://fedoraproject.org/ for more information.
+    questions_and_answers:
+      - question: What types of users do Fedora spins like Xfce and LXDE target?
+        answer: Fedora spins like Xfce and LXDE target users seeking lightweight desktop experiences.
+      - question: What are Fedora Labs designed to provide?
+        answer: Fedora Labs provide curated software bundles for specific fields like robotics, gaming, or scientific research.
+      - question: What is one major update to the Anaconda installer in Fedora 42?
+        answer: The Anaconda installer in Fedora 42 is now Wayland-native.
+document_outline: |
+  A primer on the Fedora Linux distribution, including information
+  about editions
+  Information about the Phoenix Constellation including the
+  history, characteristics, and features of the stars in the constellation.
+document:
+  repo: https://github.com/davidkirwan/instructlab-taxonomy-knowledge
+  commit: 87201888ed06641fa0167b4b02617d1e3d2bed79
+  patterns:
+    - Fedora_Linux.md
